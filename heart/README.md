@@ -1,12 +1,12 @@
 ## Model Testing
 
-- **Healthy >> [0.00568393]** <br>
-print("The result should be between 0 and 0.5 ( Healthy / Low Risk Diabetes ):") <br>
+- **Healthy >> [0.0027887]** <br>
+print("The result should be between 0 and 0.5 ( Healthy / Low Risk Heart Disease):") <br>
 model.predict([[1.0, 1.0, 22.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0]])
 
-- **Not Healthy >> [0.7104426]** <br>
-print("The result should be between 0.5 and 1 ( Unhealthy / High Risk Diabetes ):") <br>
-model.predict([[1.0, 5.0, 85.2, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]])
+- **Not Healthy >> [0.4393909]** <br>
+print("The result should be between 0.5 and 1 ( Unhealthy / High Risk Heart Disease ):") <br>
+model.predict([[1.0, 5.0, 85.2, 1.0, 1.0, 1.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]])
 
 
 
