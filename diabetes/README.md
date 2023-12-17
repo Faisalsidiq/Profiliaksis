@@ -22,7 +22,7 @@ model.predict([[1.0, 5.0, 85.2, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0
   - tekananDarah [0,1] = [Normal, Tinggi]
   - kolesterol [0,1] = [Normal, Tinggi]
   - stroke [0,1] = [Tidak, Ya]
-  - sakitJantung [0,1,2] = [Tidak, Prediabetes, Ya]
+  - sakitJantung [0,1] = [Tidak, Ya]
   - rokok [0,1] = [Tidak, Ya]
   - alkohol [0,1] = [Tidak, Ya]
   - olahraga [0,1] = [Tidak, Ya]
